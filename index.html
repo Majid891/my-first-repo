@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <span class="badge">Department of Computer Science</span>
+            <h1>FAST</h1>
+            <p class="subtitle">Student Information Page</p>
+            <p class="intro-text">
+                Welcome to the student information page. This page showcases student details,
+                coursework, semester attendance, and weekly schedule. It was styled using Html and CSS.
+            </p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Majid. <br>
+                I am a student of BS Computer Science. <br>
+                I like programming, watching movies and series and trying new things.
+            </p>
+        </section>
+
+        <div class="grid-two">
+            <section class="card" id="hobbies">
+                <h2>My Hobbies</h2>
+                <ul class="styled-list">
+                    <li>Programming</li>
+                    <li>Binging Videos</li>
+                    <li>Tinkering with Hardware</li>
+                    <li>Trying new things</li>
+                </ul>
+            </section>
+
+            <section class="card" id="subjects">
+                <h2>Subjects</h2>
+                <ul class="styled-list">
+                    <li>Programming Fundamentals</li>
+                    <li>Calculus</li>
+                    <li>Ideology</li>
+                    <li>Islamic Ethics</li>
+                    <li>Functional English</li>
+                    <li>ICT</li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="card" id="result">
+            <h2>Attendance</h2>
+            <p class="section-desc">The table below shows my current attendance of the semester.</p>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr class="table-title-row">
+                            <th colspan="4">Semester Attendance - Fall 2026</th>
+                        </tr>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Present</th>
+                            <th>Absent</th>
+                            <th>Late</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programming Fundamentals</td>
+                            <td>100%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Calculus</td>
+                            <td>100%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Ideology</td>
+                            <td>93%</td>
+                            <td>1</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Islamic Ethics</td>
+                            <td>100%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Functional English</td>
+                            <td>100%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>ICT</td>
+                            <td>100%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card" id="timetable">
+            <h2>Weekly Timetable</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr class="table-title-row">
+                            <th colspan="7">Weekly Timetable</th>
+                        </tr>
+                        <tr>
+                            <th>Day</th>
+                            <th>8:00 - 9:30</th>
+                            <th>9:30 - 11:00</th>
+                            <th>11:00 - 12:30</th>
+                            <th>12:30 - 2:00</th>
+                            <th>2:05 - 3:30</th>
+                            <th>3:35 - 5:00</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>PF lab</td>
+                            <td>PF lab</td>
+                            <td><span class="free-tag">Free</span></td>
+                            <td>ICT lab</td>
+                            <td>ICT lab</td>
+                            <td><span class="free-tag">Free</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>Ideology</td>
+                            <td>Ideology</td>
+                            <td><span class="free-tag">Free</span></td>
+                            <td>Programming Fundamentals</td>
+                            <td>Calculus</td>
+                            <td><span class="free-tag">Free</span></td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>English lab</td>
+                            <td>English lab</td>
+                            <td><span class="free-tag">Free</span></td>
+                            <td><span class="free-tag">Free</span></td>
+                            <td>Islamic Ethics</td> 
+                            <td><span class="free-tag">Free</span></td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>Calculus</td>
+                            <td><span class="free-tag">Free</span></td>
+                            <td>Programming Fundamentals</td>
+                            <td><span class="free-tag">Free</span></td>
+                            <td>English</td> 
+                            <td><span class="free-tag">Free</span></td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td colspan="7"><span class="holiday-tag">Holiday</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card contact-card" id="contact">
+            <h2>Contact Details:</h2>
+            <p>For any query, contact the following number or Email: </p> <br>
+            <p>Number: </p>
+            <p>111-128-128</p>
+
+            <p>Email: </p>
+            <p><a href="admissions.pwr@nu.edu.pk">admissions.pwr@nu.edu.pk</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p> © 2026 Student Information Page</p>
+        </div>
+    </footer>
+</body>
+</html>
